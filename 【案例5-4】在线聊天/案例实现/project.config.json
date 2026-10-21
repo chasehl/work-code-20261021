@@ -1,0 +1,12 @@
+{
+  "description": "在线聊天",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "appid": "touristappid",
+  "projectname": "在线聊天",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "postcss": true
+  }
+}

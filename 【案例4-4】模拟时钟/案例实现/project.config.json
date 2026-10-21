@@ -1,0 +1,12 @@
+{
+  "description": "模拟时钟",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "appid": "touristappid",
+  "projectname": "模拟时钟",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "postcss": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "description": "罗盘动画",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "appid": "touristappid",
+  "projectname": "罗盘动画",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "postcss": true
+  }
+}

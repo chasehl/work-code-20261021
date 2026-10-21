@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "用户登录"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "头像上传下载"
+  },
+  "sitemapLocation": "sitemap.json"
+}

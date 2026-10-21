@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/compass/compass"
+  ],
+  "window": {
+    "navigationBarTitleText": "罗盘动画"
+  },
+  "sitemapLocation": "sitemap.json"
+}

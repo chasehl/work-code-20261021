@@ -1,0 +1,12 @@
+{
+  "description": "头像上传下载",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "appid": "touristappid",
+  "projectname": "头像上传下载",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "postcss": true
+  }
+}

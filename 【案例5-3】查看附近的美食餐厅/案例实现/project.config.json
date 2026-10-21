@@ -1,0 +1,12 @@
+{
+  "description": "查看附近美食餐厅",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "appid": "touristappid",
+  "projectname": "查看附近美食餐厅",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "postcss": true
+  }
+}

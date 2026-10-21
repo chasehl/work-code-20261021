@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "录音机"
+  },
+  "sitemapLocation": "sitemap.json"
+}

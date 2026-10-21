@@ -1,0 +1,25 @@
+<view class="tab">
+  <view class="tab-item {{item == 0 ? 'active' : ''}}" data-item="0" bindtap="changeItem">音乐推荐</view>
+  <view class="tab-item {{item == 1 ? 'active' : ''}}" data-item="1" bindtap="changeItem">播放器</view>
+  <view class="tab-item {{item == 2 ? 'active' : ''}}" data-item="2" bindtap="changeItem">播放列表</view>
+</view>
+<view class="content">
+  <swiper current="{{item}}" bindchange="changeTab">
+    <swiper-item><include src="info.wxml" /></swiper-item>
+    <swiper-item><include src="play.wxml" /></swiper-item>
+    <swiper-item><include src="playlist.wxml" /></swiper-item>
+  </swiper>
+</view>
+<view class="player">
+  <image class="player-cover" src="{{play.coverImgUrl}}" data-item="1" bindtap="changeItem" />
+  <view class="player-info">
+    <view class="player-info-title" data-item="1" bindtap="changeItem">{{play.title}}</view>
+    <view class="player-info-singer" data-item="1" bindtap="changeItem">{{play.singer}}</view>
+  </view>
+  <view class="player-controls">
+    <image src="/images/01.png" data-item="2" bindtap="changeItem" />
+    <image wx:if="{{state == 'paused'}}" src="/images/02.png" bindtap="play" />
+    <image wx:else src="/images/02stop.png" bindtap="pause" />
+    <image src="/images/03.png" bindtap="next" />
+  </view>
+</view>

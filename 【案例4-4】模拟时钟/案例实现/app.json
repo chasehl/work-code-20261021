@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "模拟时钟"
+  },
+  "sitemapLocation": "sitemap.json"
+}

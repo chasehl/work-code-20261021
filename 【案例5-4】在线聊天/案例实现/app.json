@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "在线聊天"
+  },
+  "sitemapLocation": "sitemap.json"
+}
